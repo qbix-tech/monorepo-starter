@@ -1,3 +1,3 @@
-import prettierConfig from "@org/prettier-config";
-
-export default prettierConfig;
+export default {
+  plugins: ["prettier-plugin-tailwindcss"],
+};

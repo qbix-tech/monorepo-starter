@@ -1,4 +1,3 @@
-// @ts-check
-import { defaultConfigWithNuxt } from "@org/eslint-config";
+import config from "@org/eslint-config/nuxt.mjs";
 
-export default defaultConfigWithNuxt;
+export default config;
